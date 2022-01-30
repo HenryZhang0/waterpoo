@@ -1,10 +1,10 @@
 html {
     height: 100%; 
-    overflow-y: hidden;
+    overflow-y: hidden; /* no vertical scroll bar, all overflow is hidden*/
 }
 
 body { 
-    min-height: 100%; 
+    min-height: 100%; /* body is at LEASt the height of the window*/
 }
 
 .slidecontainer {
@@ -47,32 +47,32 @@ body {
   }
 
 .grid {
-    position: absolute;
+    position: absolute; /* fills the whole window screen */
     top: 0; right: 0; bottom: 0; left: 0;
     border: 15px solid orange
 }
 
 .button-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /* flexbox display so buttons grow/shrink with window size*/
+    flex-wrap: wrap; /* buttons continue on next row  */
 
-    gap: 5px;
+    gap: 5px; /* gap between buttons */
 
     border-style: solid;
     border-color: red;
 
-    width: 100%;
+    width: 100%; /* fills the whole div space */
     height: 100%;
 }
 
 .grid-item {
-    flex: 1 1 auto;
-    min-width: 100px;
+    flex: 1 1 auto; /* all buttons grow and shrink at the same rate */
+    min-width: 100px; /* min width of buttons, once window becomes too small, buttons continue on next row */
 }
 
 .button {
-    border-radius: 4px;
-    width: 100%;
+    border-radius: 4px; /* roundness of buttons */
+    width: 100%; /* 100% to fill the whole flexbox cell*/
     height: 100%;
-    background-color: violet;
+    background-color: violet; /* LOL this is colour of the button */
 }
