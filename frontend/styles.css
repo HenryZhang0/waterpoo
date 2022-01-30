@@ -36,3 +36,10 @@
     background: #04AA6D; /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
+
+.button-container {
+    display: grid;
+    grid-gap: 50px 100px; /*row gap, column gap*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+}
