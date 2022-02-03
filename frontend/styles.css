@@ -85,4 +85,5 @@ body {
   width: 100%; /* 100% to fill the whole flexbox cell*/
   height: 100%;
   background-color: navajowhite; /* LOL this is colour of the button */
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
